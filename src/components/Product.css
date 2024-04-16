@@ -1,0 +1,34 @@
+.product {
+  background-color: rgb(34, 33, 33);
+  border: 1px dotted rgb(154, 19, 19);
+  margin-bottom: 10px;
+
+  display: inline-block;
+  width: 310px;
+  height: 380px;
+  border-radius: 7px;
+  margin: 0 26px 26px 0;
+  vertical-align: top;
+}
+
+.product h6 {
+  font-size: 24px;
+  font-family: Candara;
+  margin: 2px;
+  color: rgb(16, 149, 122);
+}
+
+.product img {
+  width: 270px;
+  height: 225px;
+  margin-top: 7px;
+}
+
+.product .total {
+  color: rgb(192, 145, 145);
+  padding-left: 10px;
+}
+
+.product .controls {
+  justify-content: space-around;
+}

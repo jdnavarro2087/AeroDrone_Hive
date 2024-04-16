@@ -1,0 +1,35 @@
+.footer {
+  background-color: rgb(42, 40, 40);
+  color: rgb(15, 68, 153);
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7px;
+  padding-top: 0px;
+  height: 92px;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 80px;
+  padding-right: 20spx;
+}
+
+ul li {
+  display: inline;
+  margin-left: 0px;
+  padding-right: 25px;
+}
+
+.contact {
+  display: table-column;
+  padding-right: 550px;
+}

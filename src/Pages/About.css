@@ -1,0 +1,94 @@
+.about {
+  background: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  color: rgb(33, 91, 171);
+  font-size: x-large;
+}
+
+.about h3 {
+  color: rgb(12, 124, 102);
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.about .box {
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h2 {
+  padding-top: 30px;
+}
+
+.apart {
+  text-align: justify;
+  padding-left: 380px;
+}
+
+.top-half {
+  flex: 1;
+}
+
+.about h1 {
+  color: rgb(12, 124, 102);
+  font-family: candara;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.top-half {
+  background-color: black;
+  padding: 20px;
+}
+
+/* Style for the bottom half of the page */
+.bottom-half {
+  background: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  padding: 20px;
+}
+
+.company-logo {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  box-shadow: 10px 10px 20px grey;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allow items to wrap in smaller screens */
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column; /* Stack the children (image and text) vertically */
+  align-items: center;
+  margin: 20px;
+}
+
+.team-image {
+  width: 220px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gradient {
+  font-style: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+}
+
+.fly {
+  color: rgb(33, 91, 171);
+  font-size: xx-large;
+  font-family: candar;
+  font-weight: bold;
+  padding-top: 50px;
+}

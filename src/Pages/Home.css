@@ -1,0 +1,76 @@
+.home {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  color: rgb(33, 91, 171);
+  font-size: large;
+}
+
+.left-half {
+  flex: 1; /* Take up left half of the container */
+  background: linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  padding: 20px;
+}
+
+.right-half {
+  flex: 1; /* Take up right half of the container */
+  background-color: rgb(7, 7, 7);
+  padding: 20px;
+  display: inline;
+}
+
+.home h1 {
+  color: rgb(12, 124, 102);
+  font-family: Candara;
+  padding-top: 0px;
+  font-weight: bold;
+}
+
+.home h3 {
+  color: rgb(11, 121, 99);
+}
+
+.home h4 {
+  color: rgb(16, 149, 122);
+}
+
+.home h5 {
+  color: rgb(55, 123, 219);
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 55px;
+}
+
+.hero {
+  padding-top: 20px;
+}
+
+.why {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.why-list {
+  display: inline;
+}
+
+.contact {
+  padding-top: 55px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.home ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.home ul li {
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  padding-top: 40px;
+  color: aliceblue;
+}

@@ -1,0 +1,49 @@
+.Cart {
+  background-color: grey;
+}
+
+.cart .prod-cart {
+  border: 1px solid #333;
+  background-color: white;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.cart .prod-cart img {
+  height: 110px;
+}
+
+.cart .prod-cart div {
+  flex: 3;
+}
+
+.cart .prod-cart label {
+  flex: 1;
+}
+
+.cart .prod-cart button {
+  width: 80px;
+}
+
+.cart .parent {
+  display: flex;
+}
+
+.cart .list {
+  flex: 5;
+}
+
+.cart .total {
+  flex: 2;
+  background-color: gray;
+  border: 1px dotted blue;
+  border-radius: 5px;
+  margin: 0 12px;
+}
+
+.cart .total h4 {
+  color: green;
+  font-weight: bold;
+}

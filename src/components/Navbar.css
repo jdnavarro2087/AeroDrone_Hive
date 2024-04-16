@@ -1,0 +1,8 @@
+.navbar {
+  height: 50px;
+  text-align: center;
+  background-color: rgb(45, 45, 235);
+}
+.navbar-custom {
+  background-color: rgb(15, 68, 153);
+}
